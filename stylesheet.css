@@ -1,0 +1,102 @@
+.calculator {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 140px;
+    width: 400px;
+    padding-bottom: 100px;
+}
+
+.judul{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(17, 68, 97);
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(129, 17, 41);
+}
+
+.preview {
+    width: 100%;
+    height: 52px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-size: 30px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.screen {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(158, 9, 66);
+    color: white;
+    text-align: right;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.buttons {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+button {
+    height: 69px;
+    background-color: #4299e1;
+    border: 5px solid white;
+    box-shadow: -3px 0px 0px #fff, 3px 3px 0px rgba(0, 0, 0, 0.16);
+    font-size: 28px;
+    color: white;
+    outline: none;
+    width: 25%;
+    border-radius: 75px;
+}
+
+.ac span {
+    font-size: 16px;
+}
+
+.ac, .zero {
+    width: 50%;
+}
+
+.operator, .result {
+    background-color:rgba(255, 106, 163, 0.904);
+}
+
+.remainder {
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgb(6, 49, 112);
+}
+
+.operator:hover, .result:hover {
+    background-color: rgba(156, 28, 56, 0.952);
+}
+
+.desc {
+    font-size: 14px;
+    background-color: rgb(6, 49, 112);
+    text-align: right;
+    border: 1px solid white;
+}
+
+.desc span {
+    display: inline-block;
+}
+
+.desc p {
+    padding: 0;
+    margin: 0;
+}
+
